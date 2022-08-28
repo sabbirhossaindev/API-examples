@@ -22,4 +22,4 @@ const loadUserAsync = async () => {
 
 const displayUser = user => {
     console.log(user);
-}
+};

@@ -2,7 +2,7 @@ const loadUser = () => {
     fetch('https://randomuser.me/api/?results=10')
         .then(res => res.json())
         .then(data => displayUsers(data.results))
-}
+};
 
 const displayUsers = users => {
     const userContainer = document.getElementById('users-container');
@@ -16,6 +16,6 @@ const displayUsers = users => {
         `;
         userContainer.appendChild(userDiv);
     }
-}
+};
 
-loadUser()
+loadUser();

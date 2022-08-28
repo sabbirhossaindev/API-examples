@@ -31,7 +31,7 @@ const displayCountryDetail = country => {
     countryDetail.innerHTML = `
         <h2>Country Name: ${country.name.common}</h2>
         <img src="${country.flags.png}">
-    `
+    `;
 };
 
 loadCountries();

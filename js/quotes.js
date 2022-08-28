@@ -9,3 +9,4 @@ const displayQuote = quote => {
     console.log(quote);
     blockQuote.innerText = quote.quote;
 };
+loadQuote();
